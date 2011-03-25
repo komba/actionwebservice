@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
   s.require_path = 'lib'
 
-  s.files = [ "Rakefile", "setup.rb", "README", "TODO", "CHANGELOG", "MIT-LICENSE" ]
+  s.files = [ "Rakefile", "setup.rb", "README.rdoc", "TODO", "CHANGELOG", "MIT-LICENSE" ]
   s.files = s.files + 
     ["examples/googlesearch", "examples/googlesearch/autoloading", "examples/googlesearch/autoloading/google_search_api.rb", "examples/googlesearch/autoloading/google_search_controller.rb", "examples/googlesearch/delegated", "examples/googlesearch/delegated/google_search_service.rb", "examples/googlesearch/delegated/search_controller.rb", "examples/googlesearch/direct", "examples/googlesearch/direct/google_search_api.rb", "examples/googlesearch/direct/search_controller.rb", "examples/googlesearch/README", "examples/metaWeblog", "examples/metaWeblog/apis", "examples/metaWeblog/apis/blogger_api.rb", "examples/metaWeblog/apis/blogger_service.rb", "examples/metaWeblog/apis/meta_weblog_api.rb", "examples/metaWeblog/apis/meta_weblog_service.rb", "examples/metaWeblog/controllers", "examples/metaWeblog/controllers/xmlrpc_controller.rb", "examples/metaWeblog/README"]
   s.files = s.files + 
