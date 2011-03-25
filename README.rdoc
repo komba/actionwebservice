@@ -14,6 +14,8 @@ Rails without spending a lot of time delving into protocol details.
 * Type signature hints to improve interoperability with static languages
 * Active Record model class support in signatures
 
+==== Installation
+  gem 'actionwebservice', :git => 'https://github.com/komba/actionwebservice'
 
 == Defining your APIs
 
@@ -349,24 +351,6 @@ See ActionWebService::Client::Soap and ActionWebService::Client::XmlRpc for more
 
 Action Web Service requires that the Action Pack and Active Record are either
 available to be required immediately or are accessible as GEMs.
-
-It also requires a version of Ruby that includes SOAP support in the standard
-library. At least version 1.8.2 final (2004-12-25) of Ruby is recommended; this
-is the version tested against.
-
-
-== Download
-
-The latest Action Web Service version can be downloaded from
-http://rubyforge.org/projects/actionservice
-
-
-== Installation
-
-You can install Action Web Service with the following command.
-
-  % [sudo] ruby setup.rb
-
 
 == License
 
